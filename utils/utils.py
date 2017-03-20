@@ -131,3 +131,8 @@ def complement_reverse(string):
     string = string.upper()
     string = string[::-1]
     return complement(string)
+
+## verificar si la hilera s es palíndromo
+
+def palindrome(string):
+    string[::-1] == string
