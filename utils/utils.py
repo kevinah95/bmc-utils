@@ -136,3 +136,10 @@ def complement_reverse(string):
 
 def palindrome(string):
     string[::-1] == string
+
+## Generador aleatorio de secuencias de ADN
+
+def random_secuence(newString,string):
+	for i in range(100):
+		newString += random.choice(string)
+		print(newString)
