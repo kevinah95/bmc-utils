@@ -1,3 +1,3 @@
-import utils
+from utils import *
 
-print(utils.poisson(56))
+print(poisson(56))
